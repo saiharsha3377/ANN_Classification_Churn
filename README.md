@@ -26,15 +26,15 @@ The model analyzes customer demographics, account details, and behavioral patter
 ---
 
 ## 📂 Repository Structure
+```text
 📁 ANN-Classification-Churn
-├── 📄 churn_model.ipynb          # Full pipeline (preprocessing, training, evaluation)
-├── 📄 data_preprocessing.py      # Feature engineering & transformation
-├── 📄 model.py                   # ANN model architecture
-├── 📄 predict.py                 # Make predictions on new data
-├── 📄 requirements.txt           # Dependencies
-└── 📁 dataset/                   # Churn dataset
-
-
+├── 📄 churn_model.ipynb       # Full pipeline (preprocessing, training, evaluation)
+├── 📄 data_preprocessing.py   # Feature engineering & transformation
+├── 📄 model.py                # ANN model architecture
+├── 📄 predict.py              # Make predictions on new data
+├── 📄 requirements.txt        # Dependencies
+└── 📁 dataset/                # Churn dataset
+```
 ---
 
 ## ✨ Features
