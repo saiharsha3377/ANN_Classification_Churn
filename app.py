@@ -20,7 +20,12 @@ with open('scaler.pkl', 'rb') as file:
 
 
 ## streamlit app
-st.title('Customer Churn PRediction')
+st.markdown('''
+# 📊Customer Churn Prediction by ANN
+**Credits**
+- App built by [Thirumala Sai Harsha Inumarthi](https://www.linkedin.com/in/saiharsha3377)
+''')
+st.write('---')
 
 # User input
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
@@ -68,3 +73,4 @@ if prediction_proba > 0.5:
     st.write('The customer is likely to churn.')
 else:
     st.write('The customer is not likely to churn.')
+
